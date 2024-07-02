@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #030328;
+}
+.container {
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    padding: 50px 30px;
+    background: aliceblue;
+    border-radius: 10px;
+
+}
+
+.heading {
+    padding-left: 13px;
+    margin-bottom: 20px;
+}
+.rom{
+    color: red;
+    padding-right: 5px;
+}
+.numb{
+color: green;
+padding-right: 4px;
+}
+.con{
+color: blue;
+}
+.inputField {
+    padding: 11px 90px 11px 10px;
+    border: 0;
+    outline: none;
+    background-color: rgba(40, 50, 175, .2);
+    border-radius: 3px;
+}
+
+.convertbtn {
+    padding: 11px 15px 11px 15px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+
+    background-color: rgba(240, 190, 40, .4);
+}
+
+.result {
+    margin-top: 10px;
+    color: red;
+    font-style: italic;
+}
